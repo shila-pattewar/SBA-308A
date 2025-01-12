@@ -3,26 +3,20 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>News API</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">       
     </head>
     <body>
-        <h1>eBird</h1>
-        <button>About Me</button>
-        <img src=" " alt=" ">
-        <p></p>
+        <div class="container">
+            <div class="heading">
+                <h1>News API</h1>
+                <hr>
+            </div>
+            <div id="news"></div>
+        </div>
 
-        <h2>About Bird</h2>
-        <form id="about-bird">
-            <label> projId: <input id="projId" type="text" /> </label> <br />
-            <label> species: <input id="species" type="text" /> </label><br />
-            <label> Observation: <input id="Observation" type="text" /> </label> <br />
-            <input type="submit" value="Create Post" />
-        </form>
-
-    
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="app.js" async defer></script>
     </body>
