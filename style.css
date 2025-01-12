@@ -1,0 +1,24 @@
+.container{
+    border: solid 2px #adb6de;
+    background-color: #eaecf7;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+
+.heading {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+}
+
+#news{
+    text-decoration: none;
+}
+
+#news:ahover{
+    text-decoration: none;
+}
