@@ -10,11 +10,29 @@
     </head>
     <body>
         <div class="container">
+            <form>
+                 <div class="form" id="searchForm">
+                    <input id="search" type="text" placeholder="Search for something...">
+                    <button onclick="getSearchKeyword()">Search</button>
+                    <p>Keyword: <span id="keyword"></span></p>
+                </div>
+
+            </form>
             <div class="heading">
-                <h1>News API</h1>
+                <h1>Google News API</h1>
                 <hr>
             </div>
             <div id="news"></div>
+            <hr>
+            <h2>Create Post</h2>
+            <form id="createPost">
+                <label> Author: <input id="author" type="text" /> </label> <br /><br />
+                <label> Description: <input id="description" type="text" /> </label><br /><br />
+                <label> Title: <input id="title" type="text" /> </label> <br /><br />
+                <input type="submit" value="Create Post" id="btn-submit" />
+            </form>
+    
+            <div id="posts"></div>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>

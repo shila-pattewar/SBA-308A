@@ -1,12 +1,21 @@
+body{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/76277059/display_1500/stock-vector-the-vector-retro-statue-of-liberty-background-76277059.jpg");
+}
+
 .container{
-    border: solid 2px #adb6de;
-    background-color: #eaecf7;
+    border: solid 2px rgb(0, 0, 0);
+    background-color: #ffffff;
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
+    opacity: 0.9;
 
 }
 
+#btn-submit{
+    background-color: orange;
+    color: black;
+}
 
 .heading {
     text-decoration: none;
@@ -15,10 +24,33 @@
     
 }
 
-#news{
+.form{
+    text-align: right;
+    padding-top: 20px;
+
+}
+
+input{
+    border-radius: 20px;
+    color: red;
+    padding: 10px;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: orange;
+}
+
+#title{
     text-decoration: none;
 }
 
-#news:ahover{
+#title:ahover{
     text-decoration: none;
+    
+}
+
+h4{
+    color: orange;
 }
