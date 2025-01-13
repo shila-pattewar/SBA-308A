@@ -1,6 +1,6 @@
 //https://newsapi.org/
 // Your API key is: 1c0731276dfc4b2383d0973707a5903e
-
+//import axios from 'axios';
 console.log(axios);
 
 const apiKey = '1c0731276dfc4b2383d0973707a5903e'; 
@@ -93,7 +93,7 @@ async function createPost(evt) {
     console.log(err);
   }
 }
-
+// call function for create post button
 function createPostDiv(post) {
   const div = document.getElementById('posts');
 
@@ -105,5 +105,4 @@ function createPostDiv(post) {
 }
 
 
-// Fetch top headlines on page load
 axiosTopHeadlines();

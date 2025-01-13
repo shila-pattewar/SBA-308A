@@ -1,5 +1,31 @@
 body{
     background-image: url("https://www.shutterstock.com/shutterstock/photos/76277059/display_1500/stock-vector-the-vector-retro-statue-of-liberty-background-76277059.jpg");
+    position: relative;
+}
+
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+nav{
+    Background-color: #2d4c50;
+}
+
+.navbar .logo{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+.navbar {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding:1.3rem 0;
+    padding: 10px;
 }
 
 .container{
